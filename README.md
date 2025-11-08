@@ -64,7 +64,10 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 server.port=8080
 
 ## Postman testing API
-
+POST - `http://localhost:8080/api/users` - Add new User   
+GET - `http://localhost:8080/api/users`  -  List all User   
+PUT - `http://localhost:8080/api/users/{id}`  -  Update User   
+DELETE - `http://localhost:8080/api/users/{id}`  -  Delete User  
 POST - `http://localhost:8080/api/allprojects` - Add new project   
 GET - `http://localhost:8080/api/allprojects`  -  List all projects   
 PUT - `http://localhost:8080/api/allprojects/{id}`  -  Update project   
